@@ -1,16 +1,115 @@
-# React + Vite
+# Referral Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Referral Dashboard built using **React.js**, **Vite**, and **React Router**. This application allows users to securely log in, view referral statistics, search and sort referrals, navigate through paginated data, and view detailed referral information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Secure Login Authentication
+* Protected Routes using JWT
+* Dashboard Overview
+* Service Summary Cards
+* Referral Sharing Section
+* Search Referrals by Name
+* Sort Referrals by Date
+* Pagination
+* Referral Details Page
+* Responsive User Interface
+* API Integration using Axios
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* React Router DOM
+* Axios
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* js-cookie
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+referral-dashboard/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+├── vercel.json
+└── README.md
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/beingAnjan/referral-dashboard.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd referral-dashboard
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+The application is deployed using **Vercel**.
+
+## Live Demo
+
+Add your deployed Vercel URL here:
+
+```
+https://referral-dashboard-mocha.vercel.app/login
+```
+
+## GitHub Repository
+
+```
+https://github.com/beingAnjan/referral-dashboard
+```
+
+## Author
+
+**Mahapatro Anjan Kumar**
+
+* GitHub: https://github.com/beingAnjan
+* LinkedIn: https://www.linkedin.com/in/anjankumarmahapatro/
+
+## License
+
+This project was developed for educational and assessment purposes.
