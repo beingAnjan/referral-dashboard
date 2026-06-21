@@ -1,0 +1,54 @@
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dashboard-page {
+    min-height: 100vh;
+    background-color: #f5f7fb;
+}
+
+.dashboard-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    color: #777;
+    font-size: 16px;
+}
+.search-container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-input:focus {
+  border-color: #0d9488;
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.sort-select {
+  padding: 10px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  cursor: pointer;
+}

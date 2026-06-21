@@ -1,0 +1,107 @@
+.referral-details-page {
+  min-height: 100vh;
+  background-color: #f5f7fb;
+}
+
+.referral-details-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.back-link {
+  background: none;
+  border: none;
+  color: #0d9488;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.referral-title {
+  margin-top: 25px;
+  margin-bottom: 8px;
+  font-size: 34px;
+  color: #222;
+}
+
+.referral-subtitle {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.referral-card {
+  max-width: 750px;
+  background: #fff;
+  border-radius: 14px;
+  padding: 30px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.referral-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ececec;
+}
+
+.referral-name {
+  font-size: 26px;
+  color: #1f2937;
+}
+
+.service-badge {
+  background: #ccfbf1;
+  color: #0d9488;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 999px;
+}
+
+.detail-row {
+  display: flex;
+  padding: 18px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.detail-row.no-border {
+  border-bottom: none;
+}
+
+.detail-label {
+  color: #9ca3af;
+  font-size: 12px;
+  min-width: 150px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.detail-value {
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.loading,
+.not-found {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .referral-title {
+    font-size: 28px;
+  }
+}

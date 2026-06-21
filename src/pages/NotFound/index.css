@@ -1,0 +1,33 @@
+.not-found-page {
+  min-height: 100vh;
+  background-color: #f5f7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-content {
+  text-align: center;
+}
+
+.not-found-code {
+  font-size: 48px;
+  color: #1f2937;
+  margin-bottom: 12px;
+}
+
+.not-found-text {
+  color: #4b5563;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.not-found-link {
+  color: #0d9488;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.not-found-link:hover {
+  text-decoration: underline;
+}
